@@ -71,7 +71,28 @@ std::string ecapeLabelString(const std::string &text)
 }
 
 //----------------------------------------------------------------------------
+// Пробелы экранировать не нужно
+inline
+std::string ecapeHtmlLabelString(const std::string &text)
+{
+    std::string res; res.reserve(text.size());
 
+    for(auto ch: text)
+    {
+        switch(ch)
+        {
+            case '&' : res.append("&amp;" ); break;
+            case '\"': res.append("&quot;"); break;
+            case '\'': res.append("&apos;"); break;
+            case '<' : res.append("&lt;"  ); break;
+            case '>' : res.append("&gt;"  ); break;
+            case '\n': res.append("<br/>" ); break;
+            default  : res.append(1, ch);
+        }
+    }
+
+    return res;
+}
 
 
 //----------------------------------------------------------------------------
