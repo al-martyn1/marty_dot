@@ -1,0 +1,11 @@
+Теория отрисовки графов - https://alenacpp.blogspot.com/2006/03/blog-post_23.html
+Graph Drawing Algorithms for the Visualization of Graphs
+Journal of Graph Algorithms and Applications - https://jgaa.info/index.php/jgaa
+введение в теорию отрисовки графов
+Graph drawing (wiki) - https://en.wikipedia.org/wiki/Graph_drawing
+Advances in the Theory and Practice of Graph Drawing - https://cs.brown.edu/people/rtamassi/papers/ordal96/ordal96.html
+Язык моделирования графов (GML) - https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%B3%D1%80%D0%B0%D1%84%D0%BE%D0%B2
+Статья "Visualize function calls with Graphviz" от M. Tim Jones.
+Tulip - https://tulip.labri.fr/site/
+Open Graph Drawing Framework - https://ogdf.uos.de/
+    https://github.com/ogdf/ogdf
